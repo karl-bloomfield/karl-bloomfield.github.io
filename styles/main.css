@@ -148,25 +148,57 @@ a:selected {
   height: 100%;
 }
 
-.container-1 {
-  height: 500px;
+.tech-blog-container-1 {
+  height: 100%;
   place-content: center;
 }
 
-.image-box-1 {
+.tech-blog-image-box-1 {
   height: 200px;
   width: 350px;
   padding: 20px;
-  background-color: ;
+  background-color: white;
   border: 1px solid black;
 
   display: flex;
   place-content: center;
+  /* this is the position of the box on the page */
+  position: fixed;
+  top: 310px;
+  left: 200px;
 
-  position: sticky;
-   top: 30px;
-   left: 200px;
+}
 
+
+#markup-box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d1cfcf;
+  font-size: 16px;
+}
+
+.text-list {
+  text-align: left;
+  font-size: 16px;
+  justify-content: center;
+}
+
+#markup-box-2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2D2E30;
+  font-size: 16px;
+  color: white;
 }
 
 .footer {
