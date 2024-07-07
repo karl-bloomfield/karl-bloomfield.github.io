@@ -274,6 +274,8 @@ a:link {
   padding: 10px;
   font-size: medium;
   background-color: #2D2E30;
+  justify-content: center;
+  align-content: center;
   
   border-radius: 5px;
 }
